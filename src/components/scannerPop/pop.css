@@ -1,0 +1,203 @@
+.info_details-student{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-50%);
+    border-radius: 6px;
+    padding: 10px;
+
+}
+.info_details-student.blue {
+    background-color: #1E429F;
+  }
+  
+.info_details-student.perple {
+    background-color: #4A1D96;
+}
+
+.d_student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.the_student-name{
+    font-size: 18px;
+    color: #FACA15;
+    position: absolute;
+    font-weight: bold;
+    right: 10%;
+}
+.the_student-payed{
+    padding: 10px 20px !important;
+    position: absolute !important;
+    top: 43% !important;
+    left: 50% !important;
+    transform: translate(-50% , -30%) !important;
+    width: 32% !important;
+    font-size: 18px !important;
+}
+.save_students{
+    position: absolute !important;
+    bottom: 10% !important;
+    right: 10% !important;
+    padding: 10px 20px !important;
+}
+.cansle-students{
+    position: absolute !important;
+    bottom: 10% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    background-color: #333 !important;
+}
+@media(max-width:990px){
+    .info_details-student{
+        width: 500px;
+        transform: translate(-29%,-60%);
+        padding: 5px;
+    }
+    .d_student{
+
+        justify-content: end;
+    }
+    .d_student .student-image{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    }
+
+}
+@media(max-width:720px){
+    .info_details-student{
+        width: 350px;
+        transform: translate(-50%,-50%);
+        padding: 5px;
+    }
+   
+
+}
+.header_the-student-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 4px;
+}
+.images-student{
+    flex: 1;
+}
+.images-student img{
+    margin: 5px;
+    width: 18%;
+    border-radius: 50%;
+}
+.name_students{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #faca15;
+}
+.name_className{
+    text-align: end;
+    color: #fce96a;
+}
+.the_number-in_student{
+    position: absolute;
+    top: 17px;
+    left: 47%;
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+}
+.info_details-student .condition{
+    padding: 14px 2px;
+    border: 1.9px solid #c8e32f !important;
+    width: 140px !important;
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+    left: 70%;
+    top: 39%;
+      
+}
+
+.inp input,
+.jen input{
+  margin-bottom: 20px;
+  background-color: #374151 !important;
+  border-radius: 6px !important;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  -ms-border-radius: 6px !important;
+  -o-border-radius: 6px !important;
+  border: none !important;
+  padding: 10px !important;
+  color: white !important;
+ 
+}
+
+@media (max-width: 990px) {
+   
+    .info_details-student .condition{
+      width: 100px !important;
+      height: 45px !important;
+    }
+    .the_number-in_student{
+        top: 9px;
+        left: 45%;
+    }
+.images-student img{
+    width: 19%;
+}
+
+  }
+@media (max-width:720px){
+ 
+    .images-student img{
+        width: 31%;
+    }
+    
+}
+
+
+
+  .input_the-degree{
+    width: 65% !important;
+    background-color: #333 !important;
+    border: none !important;
+    border-radius: 6px !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+  }
+  .sent-code_in{
+    padding: 14px 2px !important;
+    border: 1.9px solid #c8e32f !important;
+    width: 140px !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px !important;
+    position: absolute;
+    left: 70%;
+    top: 44%;
+  }
+  .input-ane_sent-degree{
+    margin: 15px 0;
+  }
+  @media(max-width:990px){
+  .input_the-degree{
+  width: 55% !important;
+  }
+  .sent-code_in{
+    width: 125px !important;
+    left: 60%;
+  }
+  
+  
+  }
